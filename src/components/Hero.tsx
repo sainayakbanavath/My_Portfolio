@@ -46,7 +46,7 @@ export const Hero = () => {
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold leading-tight">
-            <span className="gradient-text">John Doe</span>
+            <span className="gradient-text">BANAVATH SARATH BRAHMA SAI NAYAK</span>
           </h1>
           
           <h2 className="text-2xl md:text-4xl font-semibold text-foreground">
