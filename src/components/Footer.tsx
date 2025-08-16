@@ -20,10 +20,10 @@ export const Footer = () => {
   ];
 
   const socialLinks = [
-    { label: 'GitHub', url: 'https://github.com/johndoe' },
-    { label: 'LinkedIn', url: 'https://linkedin.com/in/johndoe' },
-    { label: 'Twitter', url: 'https://twitter.com/johndoe' },
-    { label: 'Discord', url: 'https://discord.com/users/johndoe' },
+    { label: 'GitHub', url: 'https://github.com/sainayakbanavath?tab=repositories' },
+    { label: 'LinkedIn', url: 'https://www.linkedin.com/in/sarath-brahma-sai-nayak-banavath/' },
+    { label: 'Twitter', url: 'https://x.com/sarath_brahma' },
+    { label: 'Discord', url: 'https://discord.com/users/sai_nayak_banavath' },
   ];
 
   return (
@@ -37,7 +37,7 @@ export const Footer = () => {
                 onClick={() => scrollToSection('hero')}
                 className="text-2xl font-bold gradient-text hover:scale-105 transition-transform"
               >
-                John Doe
+                Banavath Sarath Brahma Sai Nayak
               </button>
               <div className="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
             </div>
@@ -96,7 +96,7 @@ export const Footer = () => {
         <div className="mt-12 pt-8 border-t border-border">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-sm text-muted-foreground">
-              © {currentYear} John Doe. All rights reserved.
+              © {currentYear} Banavath Sarath Brahma Sai Nayak. All rights reserved.
             </div>
             
             <div className="flex items-center space-x-6 text-sm text-muted-foreground">

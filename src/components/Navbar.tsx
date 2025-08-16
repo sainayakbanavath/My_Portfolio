@@ -44,7 +44,7 @@ export const Navbar = () => {
             onClick={() => scrollToSection('hero')}
             className="text-2xl font-bold gradient-text hover:scale-105 transition-transform"
           >
-            Dev Portfolio
+            Sai's Portfolio
           </button>
 
           {/* Desktop Navigation */}

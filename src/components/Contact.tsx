@@ -43,20 +43,20 @@ export const Contact = () => {
     {
       icon: <Mail className="w-5 h-5" />,
       label: 'Email',
-      value: 'john.doe@example.com',
-      link: 'mailto:john.doe@example.com'
+      value: 'b.sarathbrahma@gmail.com',
+      link: 'mailto:b.sarathbrahma@gmail.com'
     },
     {
       icon: <Phone className="w-5 h-5" />,
       label: 'Phone',
-      value: '+1 (555) 123-4567',
-      link: 'tel:+15551234567'
+      value: '+91 8367520633',
+      link: '+91 8367520633'
     },
     {
       icon: <MapPin className="w-5 h-5" />,
       label: 'Location',
-      value: 'San Francisco, CA',
-      link: 'https://maps.google.com/?q=San+Francisco,CA'
+      value: 'Vijayawada, India',
+      link: 'https://www.google.com/maps/place/Vijayawada,+Andhra+Pradesh/@16.5101648,80.6448843,13z/data=!3m1!4b1!4m6!3m5!1s0x3a35eff9482d944b:0x939b7e84ab4a0265!8m2!3d16.5061743!4d80.6480153!16zL20vMDM4NWs3?entry=ttu&g_ep=EgoyMDI1MDgxMi4wIKXMDSoASAFQAw%3D%3D'
     }
   ];
 
@@ -64,25 +64,25 @@ export const Contact = () => {
     {
       icon: <Github className="w-5 h-5" />,
       label: 'GitHub',
-      url: 'https://github.com/johndoe',
+      url: 'https://github.com/sainayakbanavath?tab=repositories',
       color: 'hover:text-foreground'
     },
     {
       icon: <Linkedin className="w-5 h-5" />,
       label: 'LinkedIn',
-      url: 'https://linkedin.com/in/johndoe',
+      url: 'https://www.linkedin.com/in/sarath-brahma-sai-nayak-banavath/',
       color: 'hover:text-primary'
     },
     {
       icon: <Twitter className="w-5 h-5" />,
       label: 'Twitter',
-      url: 'https://twitter.com/johndoe',
+      url: 'https://x.com/sarath_brahma',
       color: 'hover:text-secondary'
     },
     {
       icon: <MessageCircle className="w-5 h-5" />,
       label: 'Discord',
-      url: 'https://discord.com/users/johndoe',
+      url: 'https://discord.com/users/sai_nayak_banavath',
       color: 'hover:text-success'
     }
   ];
@@ -262,8 +262,8 @@ export const Contact = () => {
             <div className="mt-6 pt-6 border-t border-border text-center">
               <p className="text-sm text-muted-foreground">
                 Prefer email? Reach out directly at{' '}
-                <a href="mailto:john.doe@example.com" className="text-primary hover:text-primary-glow transition-colors">
-                  john.doe@example.com
+                <a href="mailto:b.sarathbrahma@gmail.com" className="text-primary hover:text-primary-glow transition-colors">
+                  b.sarathbrahma@gmail.com
                 </a>
               </p>
             </div>

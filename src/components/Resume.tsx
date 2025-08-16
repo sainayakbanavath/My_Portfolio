@@ -5,14 +5,14 @@ export const Resume = () => {
   const handleDownload = () => {
     // In a real application, this would link to an actual PDF file
     const link = document.createElement('a');
-    link.href = '/resume.pdf'; // Replace with actual PDF path
-    link.download = 'John_Doe_Resume.pdf';
+    link.href = 'https://drive.google.com/file/d/1281mOpnPKlWQ6CIDY0pGGc9xVyQA78IZ/view?usp=sharing'; // Replace with actual PDF path
+    link.download = 'https://drive.google.com/file/d/1281mOpnPKlWQ6CIDY0pGGc9xVyQA78IZ/view?usp=sharing';
     link.click();
   };
 
   const handlePreview = () => {
     // In a real application, this would open a PDF viewer
-    window.open('/resume.pdf', '_blank');
+    window.open('https://drive.google.com/file/d/1281mOpnPKlWQ6CIDY0pGGc9xVyQA78IZ/view?usp=sharing', '_blank');
   };
 
   const resumeHighlights = [
@@ -20,20 +20,18 @@ export const Resume = () => {
       icon: <Briefcase className="w-6 h-6" />,
       title: 'Professional Experience',
       items: [
-        'Senior Full Stack Developer at TechCorp (2022-Present)',
-        'Full Stack Developer at StartupXYZ (2020-2022)',
-        'Frontend Developer at WebAgency (2019-2020)',
-        'Junior Developer at DevStudio (2018-2019)'
+        'MERN Stack Intern at CODTECH (2025-Present)'
+        
       ]
     },
     {
       icon: <GraduationCap className="w-6 h-6" />,
       title: 'Education & Certifications',
       items: [
-        'B.S. Computer Science - State University (2018)',
-        'AWS Certified Developer Associate',
-        'React Professional Certificate',
-        'Node.js Application Developer Certification'
+        'B.Tech. Computer Science - Rajiv Gandhi University of Knowledge and Technologies, Ongole (2020-2026)',
+        'W3 Certified Javascript Developer',
+        'Python Professional Certificate',
+        'NXTWAVE Responsive Web Design Certification'
       ]
     },
     {
@@ -42,8 +40,8 @@ export const Resume = () => {
       items: [
         'Led development of platform serving 100K+ users',
         'Reduced application load time by 60%',
-        'Mentored 8+ junior developers',
-        'Open source contributor with 500+ GitHub stars'
+        'Mentored 3+ junior developers',
+        'Open source contributor with 100+ GitHub stars'
       ]
     }
   ];
@@ -99,11 +97,11 @@ export const Resume = () => {
               <div className="mt-8 pt-6 border-t border-border">
                 <div className="grid grid-cols-3 gap-4 text-center">
                   <div>
-                    <div className="text-2xl font-bold gradient-text">5+</div>
+                    <div className="text-2xl font-bold gradient-text">1+</div>
                     <div className="text-xs text-muted-foreground">Years</div>
                   </div>
                   <div>
-                    <div className="text-2xl font-bold gradient-text">50+</div>
+                    <div className="text-2xl font-bold gradient-text">10+</div>
                     <div className="text-xs text-muted-foreground">Projects</div>
                   </div>
                   <div>
@@ -200,7 +198,7 @@ export const Resume = () => {
               <Button 
                 variant="outline"
                 className="border-secondary text-secondary hover:bg-secondary hover:text-secondary-foreground"
-                onClick={() => window.open('https://linkedin.com/in/johndoe', '_blank')}
+                onClick={() => window.open('https://www.linkedin.com/in/sarath-brahma-sai-nayak-banavath/', '_blank')}
               >
                 View LinkedIn
               </Button>

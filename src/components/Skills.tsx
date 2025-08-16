@@ -144,8 +144,8 @@ export const Skills = () => {
             </p>
             <div className="grid md:grid-cols-3 gap-4">
               {[
-                'AWS Certified Developer',
-                'React Professional Certificate',
+                'NXTWAVE Certified Developer',
+                'PYTHON Professional Certificate',
                 'Node.js Application Developer',
               ].map((cert, index) => (
                 <div key={index} className="glass p-4 rounded-lg border-gradient">

@@ -10,8 +10,8 @@ export const Projects = () => {
       description: 'Full-stack e-commerce solution with advanced features like real-time inventory, payment processing, and admin dashboard.',
       image: 'https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&h=400&fit=crop',
       tech: ['React', 'Node.js', 'PostgreSQL', 'Stripe', 'AWS'],
-      github: 'https://github.com',
-      live: 'https://example.com',
+      github: 'https://github.com/sainayakbanavath/ECOMMERCE-FLYBUY.git',
+      live: 'https://sainayakbanavath.github.io/ECOMMERCE-FLYBUY/#',
       featured: true
     },
     {

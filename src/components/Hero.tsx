@@ -13,8 +13,8 @@ export const Hero = () => {
   const downloadResume = () => {
     // Create a placeholder PDF download
     const link = document.createElement('a');
-    link.href = '#'; // Replace with actual resume PDF path
-    link.download = 'John_Doe_Resume.pdf';
+    link.href = 'https://drive.google.com/file/d/1281mOpnPKlWQ6CIDY0pGGc9xVyQA78IZ/view?usp=sharing'; // Replace with actual resume PDF path
+    link.download = 'https://drive.google.com/file/d/1281mOpnPKlWQ6CIDY0pGGc9xVyQA78IZ/view?usp=sharing';
     link.click();
   };
 
